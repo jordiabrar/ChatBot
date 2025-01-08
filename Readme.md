@@ -18,3 +18,20 @@ Pastikan Anda memiliki dependensi berikut terinstal:
 Anda dapat menginstal semua dependensi menggunakan:
 ```bash
 pip install -r requirements.txt
+```
+
+## 📥 Cara Menjalankan Proyek
+1. Clone Repositori
+```bash
+git clone https://github.com/username/chatbot-sederhana.git
+cd chatbot-sederhana
+```
+
+2. Siapkan Dataset
+Unduh dataset Cornell Movie Dialogues
+Ekstrak file ZIP ke dalam folder cornell_data/.
+
+3. Jalankan Script
+```bash
+python chatbot.py
+```
